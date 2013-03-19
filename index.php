@@ -22,7 +22,9 @@ if(!isset($_SESSION['lang']) && !isset($_COOKIE['lang'])){
 if(isset($_GET['lang'])){
 	I18n::lang($_GET['lang']);
 }
-
+/**
+ *autoloader to dont need many include and require
+ */
 function __autoload($classname) {
 	$config = array(
 		'classpath' => 'classes',
