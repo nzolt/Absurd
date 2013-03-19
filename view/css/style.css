@@ -1,0 +1,215 @@
+/* 
+    Document   : style
+    Created on : 2013.03.14., 2:49:38
+    Author     : Jetro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+	margin:0;
+	padding:0;
+	margin:auto;
+	background: #f8f8f8;
+}
+
+#page{
+	background: #f8f8f8;
+	width: 980px;
+	margin:auto;
+	padding-top: 10px;
+}
+
+#menu{
+	width: 600px;
+	border: solid 1px #000;
+	background-color: #c8c8c8;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+#menu ul li ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #3E3E4A;
+}
+.active{
+	margin-left: 50px;
+	width:180px;
+	background:#3E3E4A;
+	color:#fff;
+	padding-left: 20px;
+}
+div#panel h4 a{
+	margin-left: 50px;
+	width:180px;
+	color:#3E3E4A;
+	padding-left: 20px;
+}
+#menu ul li.menu-first ul li a:hover,
+#menu ul li.menu-second ul li a:hover,
+#menu ul li.menu-third ul li a:hover{
+	color:#00f;
+}
+#panel{
+	border: solid 1px #000;
+	margin-top: 6px;
+	border-radius:4px;
+	background: #FFF;
+}
+form{
+	margin:0;
+	padding:0;
+}
+fieldset{
+	margin:1em 0;
+	border:none;
+	border:1px solid #ccc;
+	width: 80%;
+	margin: auto;}
+legend{
+	/*margin:1em 0;*/
+	padding:0 .5em;
+	color:#036;
+	background:transparent;
+	font-size:1.3em;
+	font-weight:bold;
+}
+label{
+	width:200px;
+	padding:0 1em;
+	text-align:right;
+	float:left;
+}
+fieldset div{
+	margin-bottom:.5em;
+	padding:0;
+	display:block;
+	clear:both;
+}
+fieldset div select{
+	padding:1px;
+}
+div.fm-opt input{
+	float:left;
+	border:1px solid #333;
+	/*padding:2px 1em;
+	font-size:100%;*/
+	background:#3E3E4A;
+	color:#fff;
+	width:218px;
+}
+div.fm-opt select{
+	float:left;
+	border:1px solid #333;
+	/*padding:2px 1em;
+	font-size:100%;*/
+	width:220px;
+	background:#3E3E4A;
+	color:#fff;
+}
+div.fm-opt textarea{
+	float:left;
+	border:1px solid #333;
+	/*padding:2px 1em;
+	font-size:100%;*/
+	width:460px;
+	height:120px;
+	background:#3E3E4A;
+	color:#fff;
+}
+fieldset div.fm-req{
+	font-weight:bold;
+}
+fieldset div label.required:before{
+	content:"* ";
+}
+table#category tbody tr td a, 
+table#product tbody tr td a{
+	font-family: Arial;
+	font-weight: bold;
+	color: #3E3E4A;
+	font-size: 12px;
+}
+.menu-first{
+	display:block;
+	position:relative;
+	left:10px;
+}
+.menu-second{
+	display:block;
+	position:relative;
+	left:110px;
+	top:-65px;
+	margin-left:60px;
+}
+.menu-third{
+	display:block;
+	position:relative;
+	left:280px;
+	top:-128px;
+	margin-left:60px;
+}
+table{
+	margin-left:10px;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+input, select, textArea, label{
+	margin-top: 10px;
+}
+div#image_div{
+	float: left;
+	display: block;
+	position: relative;
+	top: 500px;
+	left: 250px;
+	background-color: #ccc;
+	top: -375px;
+	left: 560px;
+	background-color: #ccc;
+	width:230px;
+	height:130px;
+	overflow: hidden;
+	margin: auto;
+}
+div#imagedtl_div{
+	float: left;
+	display: block;
+	background-color: #ccc;
+	background-color: #ccc;
+	width:300px;
+	height:450px;
+	overflow: hidden;
+	margin: auto;
+}
+tbody{
+	text-align: center;
+}
+.align-left{
+	text-align: left;
+	padding-left: 20px;
+}
+.untranslated{
+	width: 980px;
+	margin: auto;
+	background-color: #FFF;
+	border: solid 1px #000;
+	margin-top: 6px;
+	border-radius:4px;
+	display: block;
+}
+.untranslated p{
+	margin-left: 20px;
+}
